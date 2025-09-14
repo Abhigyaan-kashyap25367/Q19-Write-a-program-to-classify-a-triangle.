@@ -16,7 +16,7 @@ int main(){
     else if(a==b || b==c || a==c ){
         printf("It is Isosceles Triangle \n");
     }
-    else if ( c>a && c>b){
+    else if ( c*c==a*a+b*b){
        
         printf("It is right angle Triangle \n");
         printf("It is also  a Scalen Triangle \n");
