@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&b);
     printf("Enter the 3rd side of triangle : ");
     scanf("%d",&c);
-    if (a+b<=c || b+c<=a || a+c<=b){
+    if (a+b>c || b+c>a || a+c>b){
         printf("Triangle is not POSSIBLE");
     }
     else if (a==b && b==c ){
